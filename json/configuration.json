@@ -1,0 +1,15 @@
+{
+    "name": "Titus's GSG Universal Gauge",
+    "emd": [
+        {
+            "name": "gauge_amp_emd_a1500_d800_v1",
+            "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v1",
+            "MaxLoad": "1500",
+            "MinLoad": "-800",
+            "Range": "8.9",
+            "Offset": "90",
+            "ABS": "0",
+            "NeedleType": "0"
+        }
+    ]
+}
