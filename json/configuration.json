@@ -1,15 +1,45 @@
 {
-    "name": "Titus's GSG Universal Gauge",
-    "emd": [
-        {
-            "name": "gauge_amp_emd_a1500_d800_v1",
-            "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v1",
-            "MaxLoad": "1500",
-            "MinLoad": "-800",
-            "Range": "8.9",
-            "Offset": "90",
-            "ABS": "0",
-            "NeedleType": "0"
-        }
-    ]
+    "name": "Titus's GSG Universal Gauge V2.0",
+    "udnote": "JSONify",
+	"type": {
+		"air": {
+        },
+		"amp": {
+            "emd": {
+                "gauge_amp_emd_a1500_d800_v1": {
+                    "name": "gauge_amp_emd_a1500_d800_v1",
+                    "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v1",
+                    "needletype": 0.0,
+                    "maxload": 1500.0,
+                    "minload": -800.0,
+                    "range": 8.9,
+                    "offset": 90.0,
+                    "abs": 0.0
+                },
+                "gauge_amp_emd_a1500_d800_v2": {
+                    "name": "gauge_amp_emd_a1500_d800_v2",
+                    "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v2",
+                    "needletype": 0.0,
+                    "maxload": 1500.0,
+                    "minload": -800.0,
+                    "range": 8.9,
+                    "offset": 90.0,
+                    "abs": 0.0
+                },
+                "gauge_amp_emd_a1500_d800_v3": {
+                    "name": "gauge_amp_emd_a1500_d800_v2",
+                    "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v3",
+                    "needletype": 0.0,
+                    "maxload": 1500.0,
+                    "minload": -800.0,
+                    "range": 8.8,
+                    "offset": 90.0,
+                    "abs": 0.0
+                }
+            }
+        },
+		"misc": {
+		}
+	}
 }
+
