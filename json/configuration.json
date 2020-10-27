@@ -3,40 +3,224 @@
     "udnote": "JSONify",
 	"type": {
 		"air": {
+            "gauge_air_afm_kpa_black": {
+                "name": "gauge_air_afm_kpa_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_afm_kpa_black",
+                "needletype": 17.0,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0.0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.678,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_alco1": {
+                "name": "gauge_air_alco1",
+                "texture": "models/gsgtrainprops/cab/gauge_air_alco1",
+                "needletype": 7.0,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0.05,
+                "maxload": 200.0,
+                "minload": 0.0,
+                "range": 1.388,
+                "offset": 15.2,
+                "abs": 0.0
+            },
+            "gauge_air_alco2": {
+                "name": "gauge_air_alco2",
+                "texture": "models/gsgtrainprops/cab/gauge_air_alco2",
+                "needletype": 7.0,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0.05,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.745,
+                "offset": 15.2,
+                "abs": 0.0
+            },
+            "gauge_air_emd": {
+                "name": "gauge_air_emd",
+                "texture": "models/gsgtrainprops/cab/gauge_air_emd",
+                "needletype": 7.0,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0.05,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.805,
+                "offset": 19.5,
+                "abs": 0.0
+            },
+            "gauge_air_grahamwhite_cfm_black": {
+                "name": "gauge_air_grahamwhite_cfm_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_black",
+                "needletype": 9.0,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 140.0,
+                "minload": 0.0,
+                "range": 0.895,
+                "offset": -71,
+                "abs": 1.0
+            },
+            "gauge_air_grahamwhite_cfm_black2": {
+                "name": "gauge_air_grahamwhite_cfm_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_black",
+                "needletype": 10,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 140.0,
+                "minload": 0.0,
+                "range": 0.895,
+                "offset": -71,
+                "abs": 1.0
+            },
+            "gauge_air_grahamwhite_cfm_green": {
+                "name": "gauge_air_grahamwhite_cfm_green",
+                "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_green",
+                "needletype": 9.0,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 140.0,
+                "minload": 0.0,
+                "range": 0.895,
+                "offset": -71,
+                "abs": 1.0
+            },
+            "gauge_air_grahamwhite_cfm_green2": {
+                "name": "gauge_air_grahamwhite_cfm_green",
+                "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_green",
+                "needletype": 10,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 140.0,
+                "minload": 0.0,
+                "range": 0.895,
+                "offset": -71,
+                "abs": 1.0
+            },
+            "gauge_air_kpa_black": {
+                "name": "gauge_air_kpa_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_kpa_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.693,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_pitanco_160_1_black": {
+                "name": "gauge_air_pitanco_160_1_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_pitanco_160_1_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.7,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_pitanco_160_2_black": {
+                "name": "gauge_air_pitanco_160_2_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_pitanco_160_2_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.7,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_salem_160_black": {
+                "name": "gauge_air_salem_160_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_salem_160_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.678,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_salem_160_green": {
+                "name": "gauge_air_salem_160_green",
+                "texture": "models/gsgtrainprops/cab/gauge_air_salem_160_green",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.678,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_salem_80_black": {
+                "name": "gauge_air_salem_80_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_salem_80_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 80.0,
+                "minload": 0.0,
+                "range": 3.356,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_westinghouse_160_black": {
+                "name": "gauge_air_westinghouse_160_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_160_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.704,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_westinghouse_160_white": {
+                "name": "gauge_air_westinghouse_160_white",
+                "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_160_white",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 160.0,
+                "minload": 0.0,
+                "range": 1.704,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_westinghouse_200_1_black": {
+                "name": "gauge_air_westinghouse_200_1_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_200_1_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 200.0,
+                "minload": 0.0,
+                "range": 1.305,
+                "offset": 9.5,
+                "abs": 0.0
+            },
+            "gauge_air_westinghouse_200_2_black": {
+                "name": "gauge_air_westinghouse_200_2_black",
+                "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_200_2_black",
+                "needletype": 7,
+                "dualneedle": 1.0,
+                "scaleoverwrite": 0,
+                "maxload": 200.0,
+                "minload": 0.0,
+                "range": 1.305,
+                "offset": 9.5,
+                "abs": 0.0
+            }      
         },
 		"amp": {
-            "emd": {
-                "gauge_amp_emd_a1500_d800_v1": {
-                    "name": "gauge_amp_emd_a1500_d800_v1",
-                    "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v1",
-                    "needletype": 0.0,
-                    "maxload": 1500.0,
-                    "minload": -800.0,
-                    "range": 8.9,
-                    "offset": 90.0,
-                    "abs": 0.0
-                },
-                "gauge_amp_emd_a1500_d800_v2": {
-                    "name": "gauge_amp_emd_a1500_d800_v2",
-                    "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v2",
-                    "needletype": 0.0,
-                    "maxload": 1500.0,
-                    "minload": -800.0,
-                    "range": 8.9,
-                    "offset": 90.0,
-                    "abs": 0.0
-                },
-                "gauge_amp_emd_a1500_d800_v3": {
-                    "name": "gauge_amp_emd_a1500_d800_v2",
-                    "texture": "models/gsgtrainprops/cab/gauge_amp_emd_a1500_d800_v3",
-                    "needletype": 0.0,
-                    "maxload": 1500.0,
-                    "minload": -800.0,
-                    "range": 8.8,
-                    "offset": 90.0,
-                    "abs": 0.0
-                }
-            }
         },
 		"misc": {
 		}
