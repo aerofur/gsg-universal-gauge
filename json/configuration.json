@@ -3,7 +3,7 @@
     "udnote": "JSONify",
 	"type": {
 		"air": {
-            "gauge_air_afm_kpa_black": {
+            "0": {
                 "name": "gauge_air_afm_kpa_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_afm_kpa_black",
                 "needletype": 17.0,
@@ -15,7 +15,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_alco1": {
+            "1": {
                 "name": "gauge_air_alco1",
                 "texture": "models/gsgtrainprops/cab/gauge_air_alco1",
                 "needletype": 7.0,
@@ -27,7 +27,7 @@
                 "offset": 15.2,
                 "abs": 0.0
             },
-            "gauge_air_alco2": {
+            "2": {
                 "name": "gauge_air_alco2",
                 "texture": "models/gsgtrainprops/cab/gauge_air_alco2",
                 "needletype": 7.0,
@@ -39,7 +39,7 @@
                 "offset": 15.2,
                 "abs": 0.0
             },
-            "gauge_air_emd": {
+            "3": {
                 "name": "gauge_air_emd",
                 "texture": "models/gsgtrainprops/cab/gauge_air_emd",
                 "needletype": 7.0,
@@ -51,7 +51,7 @@
                 "offset": 19.5,
                 "abs": 0.0
             },
-            "gauge_air_grahamwhite_cfm_black": {
+            "4": {
                 "name": "gauge_air_grahamwhite_cfm_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_black",
                 "needletype": 9.0,
@@ -63,7 +63,7 @@
                 "offset": -71,
                 "abs": 1.0
             },
-            "gauge_air_grahamwhite_cfm_black2": {
+            "5": {
                 "name": "gauge_air_grahamwhite_cfm_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_black",
                 "needletype": 10,
@@ -75,7 +75,7 @@
                 "offset": -71,
                 "abs": 1.0
             },
-            "gauge_air_grahamwhite_cfm_green": {
+            "6": {
                 "name": "gauge_air_grahamwhite_cfm_green",
                 "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_green",
                 "needletype": 9.0,
@@ -87,7 +87,7 @@
                 "offset": -71,
                 "abs": 1.0
             },
-            "gauge_air_grahamwhite_cfm_green2": {
+            "7": {
                 "name": "gauge_air_grahamwhite_cfm_green",
                 "texture": "models/gsgtrainprops/cab/gauge_air_grahamwhite_cfm_green",
                 "needletype": 10,
@@ -99,7 +99,7 @@
                 "offset": -71,
                 "abs": 1.0
             },
-            "gauge_air_kpa_black": {
+            "8": {
                 "name": "gauge_air_kpa_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_kpa_black",
                 "needletype": 7,
@@ -111,7 +111,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_pitanco_160_1_black": {
+            "9": {
                 "name": "gauge_air_pitanco_160_1_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_pitanco_160_1_black",
                 "needletype": 7,
@@ -123,7 +123,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_pitanco_160_2_black": {
+            "10": {
                 "name": "gauge_air_pitanco_160_2_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_pitanco_160_2_black",
                 "needletype": 7,
@@ -135,7 +135,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_salem_160_black": {
+            "11": {
                 "name": "gauge_air_salem_160_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_salem_160_black",
                 "needletype": 7,
@@ -147,7 +147,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_salem_160_green": {
+            "12": {
                 "name": "gauge_air_salem_160_green",
                 "texture": "models/gsgtrainprops/cab/gauge_air_salem_160_green",
                 "needletype": 7,
@@ -159,7 +159,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_salem_80_black": {
+            "13": {
                 "name": "gauge_air_salem_80_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_salem_80_black",
                 "needletype": 7,
@@ -171,7 +171,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_westinghouse_160_black": {
+            "14": {
                 "name": "gauge_air_westinghouse_160_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_160_black",
                 "needletype": 7,
@@ -183,7 +183,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_westinghouse_160_white": {
+            "15": {
                 "name": "gauge_air_westinghouse_160_white",
                 "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_160_white",
                 "needletype": 7,
@@ -195,7 +195,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_westinghouse_200_1_black": {
+            "16": {
                 "name": "gauge_air_westinghouse_200_1_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_200_1_black",
                 "needletype": 7,
@@ -207,7 +207,7 @@
                 "offset": 9.5,
                 "abs": 0.0
             },
-            "gauge_air_westinghouse_200_2_black": {
+            "17": {
                 "name": "gauge_air_westinghouse_200_2_black",
                 "texture": "models/gsgtrainprops/cab/gauge_air_westinghouse_200_2_black",
                 "needletype": 7,
